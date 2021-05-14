@@ -33,7 +33,8 @@
 }
 
 .text{
-    color: teal;
+    /* color: teal; */
+    color: green;
     font-style: italic;
 }
 
