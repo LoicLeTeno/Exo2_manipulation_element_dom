@@ -45,13 +45,14 @@ p_all.forEach(p => {
     // ### 10
 let section_1 = document.querySelectorAll('section')[0];
 section_1.className = "margin-bottom" + " border-black " + "padding";
+// section_1.classList.add ("margin-bottom", "border-black", "padding")
 
     // ### 11
 let section_2 = document.querySelectorAll('section')[1];
 section_2.className = "margin-top" + " border-black " + "padding";
+// section_2.classList.add ('margin-top', 'border-black', 'padding');
+
 
     // ### 12
 let div_parent_section = document.querySelectorAll('section')[1].querySelector('div');
 div_parent_section.setAttribute('style', 'background-color: blue; border: solid 3px red; height: 20px; width: 20px;');
-
-console.log(div_parent_section);
